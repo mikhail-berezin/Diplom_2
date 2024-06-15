@@ -9,8 +9,6 @@ import org.junit.Before;
 import org.junit.Test;
 import ru.yandex.praktikum.diplom2.model.*;
 
-import java.util.List;
-
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 import static ru.yandex.praktikum.diplom2.constants.StellarburgerTestConstants.*;
@@ -25,7 +23,6 @@ import static ru.yandex.praktikum.diplom2.steps.RegisterUserSteps.registerUser;
 
 public class GetOrdersTest {
 
-    List<Ingredient> ingredients;
     String token;
 
     @Before
